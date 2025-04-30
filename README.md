@@ -12,6 +12,14 @@ Dataset:
 The dataset used in this project is provided by Kaggle and contains 284,807 transactions, of which only 0.17% are fraudulent. 
 You can find the dataset here https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download
 
+Requirements: 
+pandas, 
+numpy,  
+imbalanced-learn, 
+scikit-learn,  
+matplotlib,  
+seaborn 
+
 Results:
 After training, the model achieves:
 Accuracy: 99.91%
@@ -22,4 +30,6 @@ Future Improvements:
 1. Experiment with other classification algorithms
 2. Optimize model thresholds for better recall
 3. Implement feature selection or engineering to improve performance
+
+
 
